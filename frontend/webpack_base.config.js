@@ -46,7 +46,7 @@ module.exports = {
 
       {
         test: /\.(png|gif|jpe?g|svg)$/i,
-        loader: 'url?limit=500&name=images/[name].[ext]'
+        loader: 'url-loader?limit=5000&name=images/[name].[ext]'
       },
 
       // для Vue JS компонентов
