@@ -7,7 +7,7 @@ module.exports = {
 
   // точки входа (entry point)
   entry: {
-    application: ['./javascripts/application.js', './stylesheets/application.sass']
+    application: ['./javascripts/application.js', './stylesheets/application.sass', 'index.slim']
   },
 
   // путь к сгенерированным файлам
@@ -43,7 +43,6 @@ module.exports = {
 
       // Можно писать на CoffeeScript
       { test: /\.coffee$/, loader: 'coffee-loader' },
-
       {
         test: /\.(png|gif|jpe?g|svg)$/i,
         loader: 'url-loader?limit=5000&name=images/[name].[ext]'

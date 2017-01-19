@@ -9,5 +9,5 @@ var _ = require('lodash');
 
 
 $(function() {
-  console.log('!!!! applicsdf.js !!!!')
+  console.log('!!!! application.js !!!!')
 });

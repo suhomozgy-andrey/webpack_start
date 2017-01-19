@@ -27,7 +27,7 @@ module.exports = {
       {
         test: /\.sass$/, loader: ExtractTextPlugin.extract("style-loader", "css-loader?sourceMap!resolve-url-loader!sass-loader?outputStyle=expanded&sourceMap=true&sourceMapContents=true")
       },
-
+      { test: /\.html\.slim$/, loader: "slim" },
       // шрифты
       {
         test: /\.(ttf|eot|svg|woff(2)?)(\?.+)?$/,
