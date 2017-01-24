@@ -7,7 +7,7 @@ module.exports = {
 
   // точки входа (entry point)
   entry: {
-    application: ['./javascripts/application.js', './stylesheets/application.sass', 'index.slim']
+    application: ['./javascripts/application.js', './stylesheets/application.sass']
   },
 
   // путь к сгенерированным файлам
