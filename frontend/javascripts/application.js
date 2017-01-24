@@ -1,13 +1,6 @@
-// CommonJS style
-var $ =  require('jQuery');
-var _ = require('lodash');
+import Test from './lib/test';
 
-// ES2015 style
-// import $ from 'jquery';
-// import _ from 'lodash';
-
-
-
-$(function() {
-  console.log('!!!! application.js !!!!')
+$(document).ready(function() {
+  console.log("Init!");
+  let c = new Test(0, 'Jane');
 });
